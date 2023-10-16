@@ -22,7 +22,7 @@ COMMON
 }
 
 .container2{
-    margin: 10px auto;
+    margin: 30px auto;
     max-width: 1050px;
     display: flex;
     justify-content: space-between;
@@ -32,8 +32,7 @@ li{
    list-style-type: none; 
 }
 
-.white{
-    color: white;
+.photow{
     height: 730px;
     width: 45%;
 }
@@ -45,6 +44,18 @@ li{
 
 .lightblue{
     background-color: #b5ddff;
+}
+
+.lightp{
+    color: #9792e4;
+}
+
+.t-white{
+    color: white;
+}
+
+.yellow{
+    color: yellow;
 }
 
 /*
@@ -62,7 +73,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
-    color: white;
     width: 100%;
 }
 
@@ -144,7 +154,6 @@ Section Partner
     display: flex;
     justify-content: space-between;
     max-width: 1150px;
-    background-color: #9792e4;
     margin: 20px 0px;
     border-radius: 15px;
 }
@@ -173,4 +182,14 @@ Section About Us
 
 .small2{
     width: 19%;
+}
+
+/*
+Section get Started
+*/
+
+.free{
+    margin: 20px auto;
+    text-align: center;
+    padding: 30px 0px;
 }
