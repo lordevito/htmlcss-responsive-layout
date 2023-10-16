@@ -25,6 +25,11 @@ li{
    list-style-type: none; 
 }
 
+.white{
+    color: white;
+    height: 730px;
+    width: 45%;
+}
 
 /*
 **********
@@ -56,6 +61,10 @@ MAIN
 **********
 */
 
+/*
+Prima griglia
+*/
+
 .mbox{
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +88,36 @@ MAIN
 .small{
     
     width: 32%;
+}
+
+/*
+Section viola
+*/
+
+.purple{
+    background-color:#9792e4 ;
+}
+
+.gbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 870px;
+    padding: 0px 70px;
+}
+
+.gbox div{
+    margin: 50px 0px;
+}
+
+.wbox{
+    position: relative;
+    left: 0;
+    top: 150px;
+    margin: 150px 0px;
+    height: 250px;
+    width: 45%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 10px;
 }
