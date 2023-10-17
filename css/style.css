@@ -104,6 +104,8 @@ li{
 
 .yellow{
     color: yellow;
+    font-size: 96px;
+    font-weight: bold;
 }
 
 /*
@@ -433,14 +435,43 @@ Section get Started
     max-width: 550px;
 }
 
+.free h4{
+    font-size: 18px;
+}
+
+.free h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.free .btn{
+    padding: 20px 40px;
+    margin: 20px 0px;
+    background-color: white;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.fa-circle{
+    font-size: 10px;
+    padding: 0px 5px;
+}
+
 /*
 Footer
 */
 
 footer{
-    background-color: black;
+    background-color: #333333;
 }
 
 footer p{
     margin: 30px 0px;
+}
+
+.t-dec{
+    color: #9792e4;
+    text-decoration: underline;
 }
