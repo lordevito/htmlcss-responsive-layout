@@ -66,6 +66,25 @@ li{
     font-size: 18px;
 }
 
+.m-bot{
+    margin-bottom: 4.375rem;
+}
+
+.bg-white .n-card{
+    font-size:72px;
+    font-weight: bold;
+}
+
+.bg-white p{
+    color: black;
+    margin: 20px 0px;
+}
+
+.bg-white h3{
+    font-size:24px;
+    font-weight: bold;
+}
+
 .lightblue{
     background-color: #b5ddff;
 }
@@ -76,6 +95,11 @@ li{
 
 .t-white{
     color: white;
+}
+
+.bg-white{
+    background-color: white;
+    padding: 20px 10px;
 }
 
 .yellow{
@@ -144,7 +168,7 @@ Prima griglia
 
 .mbox div{
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 10px 30px;
     margin: 10px 0px;
 }
 
@@ -155,7 +179,6 @@ Prima griglia
 
 .small{
     width: 32%;
-    text-align: center;
 }
 
 .logo img{
@@ -202,7 +225,7 @@ Section viola
 */
 
 .purple{
-    background-color:#9792e4 ;
+    background-color:#9792e4;
 }
 
 .photow img{
@@ -243,7 +266,14 @@ Section viola
 }
 
 .wbox h3{
+    font-size: 24px;
     padding: 30px 0px;
+}
+
+.wbox p{
+    font-size:18px;
+    color: black;
+    padding: 10px 10px;
 }
 
 .wbox img{
@@ -261,6 +291,7 @@ Section viola
 Section Partner
 */
 
+
 .partner{
     display: flex;
     justify-content: space-between;
@@ -269,9 +300,27 @@ Section Partner
     border-radius: 15px;
 }
 
+.text-center h2{
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.text-center p{
+    font-size: 20px;
+    padding-top: 20px;
+    color: black;
+}
+
 .photo{
     width: 20%;
     margin-left: 10px;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+.photo img{
+    width: 100%;
+   
+    
 }
 
 .phrase{
@@ -279,22 +328,100 @@ Section Partner
     margin: 30px 0px;
 }
 
+.phrase span{
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.paragraph i{
+    padding: 0px 5px;
+}
+
+.paragraph{
+    padding: 30px 30px 10px 30px;
+    font-size: 20px;
+}
+
+.phrase i, p, span{
+    color: white;
+}
+
 /*
 Section Seconda Griglia
 */
 
+.purple .container{
+    padding: 30px 0px;
+}
+
+.container h2{
+    font-size: 48px;
+}
+
+.btn-p{
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+    padding: 10px 40px;
+    margin: 20px 0px;
+}
 /*
 Section About Us
 */
 
 .big2{
-    width: 79%;
+    width: 69%;
+}
+
+.big2 p{
+    color: black;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+
+.big2 .n-card{
+    font-size:72px;
+    font-weight: bold;
 }
 
 .small2{
-    width: 19%;
+    width: 29%;
 }
 
+.small2 .photo{
+    display:block;
+}
+
+.small2 p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.reverse{
+    background-color: white;
+    color: #9792e4;
+    margin-right: 5px;
+}
+
+.photo2{
+    width: 60%;
+    margin-left: 10px;
+    padding: 20px 10px;
+    border-radius: 50%
+}
+
+.marks{
+    position: relative;
+}
+.marks i{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    color: #9792e4;
+    font-size: 72px;
+    font-weight: bold;
+}
 /*
 Section get Started
 */
