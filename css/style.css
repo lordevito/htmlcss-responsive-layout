@@ -8,6 +8,7 @@ RESET
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /*
@@ -17,7 +18,7 @@ COMMON
 */
 
 .container{
-    margin: 10px auto;
+    margin: 0px auto;
     max-width: 1150px;
 }
 
@@ -40,6 +41,30 @@ li{
 .text-center{
     text-align: center;
     padding: 20px 0px;
+}
+
+.btn{
+    border-radius: 20px;
+    border: none;
+}
+
+.distance{
+    padding: 0px 20px;
+    position: relative;
+    left: 0;
+    top: .3125rem;
+}
+
+.t-blue{
+    color: #0084fd;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.mtop{
+    margin-top: 10px;
+    padding: 20px 0px;
+    font-size: 18px;
 }
 
 .lightblue{
@@ -72,13 +97,32 @@ header{
 .bar{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0px;
+    padding: 10px 0px;
     width: 100%;
 }
 
 .list{
     display: flex;
     justify-content: space-around;
+    padding: 10px 0px;
+}
+.btnw{
+    padding: 7px;
+    border: none;
+}
+
+.logo{
+    position: relative;
+    left: 0;
+    top: .3125rem;
+}
+
+.distance .btn:hover{
+    cursor: pointer;
+}
+.distance a{
+    text-decoration: none;
+    
 }
 
 /*
@@ -95,23 +139,63 @@ Prima griglia
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 0px .3125rem;
     margin: 50px 0px 70px 0px;
 }
 
 .mbox div{
-    height: 340px;
     border-radius: 20px;
-    padding: 30px 10px;
+    padding: 10px 10px;
     margin: 10px 0px;
 }
 
 .big{
     width: 66%;
+    display: flex;
 }
 
 .small{
     width: 32%;
-    background-color: white;
+    text-align: center;
+}
+
+.logo img{
+    width: calc((100% / 3) * 2);
+}
+
+.btn-blue{
+    background-color: #0084fd;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+
+.btn-blue span{
+    padding-left: 5px;
+    font-size: 18px;
+    font-size: bold;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    position: relative;
+}
+
+.right img{
+    width: 60%;
+    position: absolute;
+    bottom: -20px;
+    right: 70px;
+}
+
+.small i{
+    color: #0084fd;
+    font-size: 60px;
+    padding: 20px 0px;
 }
 
 /*
