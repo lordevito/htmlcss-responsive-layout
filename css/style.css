@@ -142,12 +142,17 @@ header{
     top: .3125rem;
 }
 
-.distance .btn:hover{
+.btn .header-icon:hover{
     cursor: pointer;
 }
 .distance a{
     text-decoration: none;
     
+}
+
+.header-icon{
+    display: none;
+    color: white;
 }
 
 /*
@@ -170,17 +175,20 @@ Prima griglia
 
 .mbox div{
     border-radius: 20px;
-    padding: 10px 30px;
-    margin: 10px 0px;
+    /*padding: 10px 30px;*/
 }
 
 .big{
     width: 66%;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .small{
     width: 32%;
+    margin: 10px 0px;
+    padding: 5px 20px;
 }
 
 .logo img{
@@ -202,18 +210,20 @@ Prima griglia
 
 .left{
     width: 50%;
+    padding: 10px 30px;
+    margin: 60px 0px;
 }
 
 .right{
     width: 50%;
-    position: relative;
+    /*position: relative;*/
 }
 
 .right img{
-    width: 60%;
-    position: absolute;
+    width: 70%;
+    /*position: absolute;
     bottom: -20px;
-    right: 70px;
+    right: 70px;*/
 }
 
 .small i{
@@ -343,9 +353,10 @@ Section Partner
 .paragraph{
     padding: 30px 30px 10px 30px;
     font-size: 20px;
+    color: white
 }
 
-.phrase i, p, span{
+.phrase i, span{
     color: white;
 }
 
@@ -474,4 +485,47 @@ footer p{
 .t-dec{
     color: #9792e4;
     text-decoration: underline;
+}
+
+/*
+**********
+RESPONSIVE
+**********
+*/
+
+@media screen and (max-width: 768px){
+    /*Utilities*/
+    .header-icon{
+    display: block;
+    background-color: #0084fd;
+    color: white;
+    margin-right: 2px;
+    border: none;
+    font-size: 20px;
+    }
+
+    /*Header*/
+
+    .list{
+        display: none;
+    }
+
+    /*Main - Griglia 1*/
+
+    .big{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .left{
+        width: 100%;
+
+    }
+
+    /*Main - sezione viola*/
+
+    .gbox{
+        flex-direction: column;
+        align-items: center;
+    }
 }
